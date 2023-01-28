@@ -1,0 +1,48 @@
+html {
+  font-family: fantasy;
+  font-size: max(7pt, 7vmin);
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+.flour {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.point {
+  box-sizing: border-box;
+  margin: auto;
+  list-style: none;
+  flex-basis: 38%;
+  display: flex;
+  flex-flow: column;
+}
+
+.point a {
+  padding: 1ch;
+}
+
+:focus {
+  outline-style: dashed;
+  outline-width: thick;
+}
+
+:hover {
+  text-decoration-style: dashed;
+}
+
+@media (orientation: portrait) {
+  .flour {
+    writing-mode: vertical-rl;
+  }
+}

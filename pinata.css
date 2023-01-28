@@ -1,0 +1,63 @@
+::selection {
+  background: indigo;
+  color: chartreuse;
+}
+
+:root {
+  color: #111;
+  background-color: seashell;
+}
+
+.pinata {
+  background-image: linear-gradient(
+    .7turn,
+    cornsilk 10%,
+    mintcream 10%,
+    mintcream 20%,
+    mistyrose 20%,
+    mistyrose 30%,
+    peachpuff 30%,
+    peachpuff 50%,
+    powderblue 50%,
+    powderblue 60%,
+    lemonchiffon 60%,
+    lemonchiffon 80%,
+    lavender 80%
+  );
+}
+
+.envy {
+  background-image: linear-gradient(.1turn, aquamarine 50%, limegreen 50%);
+}
+
+.sloth {
+  background-image: linear-gradient(.2turn, powderblue 50%, skyblue 50%);
+}
+
+.gluttony {
+  background-image: linear-gradient(.3turn, peachpuff 50%, coral 50%);
+}
+
+.greed {
+  background-image: linear-gradient(.4turn, chartreuse 50%, yellow 50%);
+}
+
+.lust {
+  background-image: linear-gradient(.5turn, cornflowerblue 50%, deepskyblue 50%);
+}
+
+.wrath {
+  background-image: linear-gradient(.6turn, crimson 50%, palevioletred 50%);
+}
+
+.pride {
+  background-image: linear-gradient(.7turn, violet 50%, transparent 50%);
+}
+
+:any-link {
+  color: inherit;
+}
+
+:focus {
+  box-shadow: 0 0 7pt 7pt azure;
+}
