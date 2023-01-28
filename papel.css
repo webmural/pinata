@@ -42,7 +42,7 @@ body {
 }
 
 @media (orientation: portrait) {
-  .flour {
-    writing-mode: vertical-rl;
+  .point {
+    flex-basis: 77%;
   }
 }
