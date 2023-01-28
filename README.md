@@ -1,3 +1,3 @@
-## [piñata](https://webmural.com/purple) [`menu`](index.html)
+## [piñata](https://webmural.com/pinata) [`menu`](index.html)
 
 gradient points coming alive
